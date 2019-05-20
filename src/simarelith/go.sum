@@ -1,0 +1,6 @@
+github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
+github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/justinian/dice v0.0.0-20170728002755-6a18b51d929c h1:nuF3PF5z48DaqyVLNqQKZJscjYeMoGdLT4fGKUuD/UI=
+github.com/justinian/dice v0.0.0-20170728002755-6a18b51d929c/go.mod h1:AyqU0eD51oSe8WchcqHezWZKoQpXZkT4MWqvaW7AnW8=
+gopkg.in/ini.v1 v1.42.0 h1:7N3gPTt50s8GuLortA00n8AqRTk75qOP98+mTPpgzRk=
+gopkg.in/ini.v1 v1.42.0/go.mod h1:pNLf8WUiyNEtQjuu5G5vTm06TEv9tsIgeAvK8hOrP4k=
