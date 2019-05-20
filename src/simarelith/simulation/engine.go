@@ -68,6 +68,7 @@ func processAttack(round int, penalty int, config *Config, attacker *Attacker, m
 	result := AttackSimulationResult{
 		damageMultiplier: 1,
 		round:            round,
+		damage:           &DamageRoll{},
 	}
 
 	// Roll to hit
@@ -96,8 +97,6 @@ func processAttack(round int, penalty int, config *Config, attacker *Attacker, m
 
 		result.damage = &damageRoll
 		result.finalDamage = (result.damage.BaseDamage + result.damage.StrDamage + result.damage.EnhancementDamage) * result.damageMultiplier
-	} else {
-		result.damage = &DamageRoll{}
 	}
 
 	logger.Trace.Println(spew.Sdump(result))
